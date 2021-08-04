@@ -1,0 +1,115 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Daniel Doppelt Portfolio Website</title>
+<style>
+    body {
+        background-color: #659DBD;
+        box-sizing: border-box;
+        padding: 100px;
+    }
+    
+    #container {
+        width: 1200px;
+        margin: 0 auto;
+        background-color: #CFCCD6;       
+    }
+    nav ul {
+        margin: 0;
+        padding 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        background-color: #383F51;
+        
+    }
+    nav ul li a {
+        display: block;
+        padding: .5em 1em;
+        margin: .5em;
+        text-decoration: none;
+        font-family: arial, helvetica, sans-serif;
+        font-size: 1.4em;
+        color: white;
+        flex: left;
+    }
+    nav a:hover {
+        background-color: #3C4F76;
+        transition: .5s;
+    }
+    nav a:active {
+        background-color: #3C4F76;
+    }
+    .abouttext {
+        font-size: 1.3em;
+        margin-left: 20px;
+        margin-right: 5px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        order: 2;
+        width: 70%;
+    }
+    .headertext {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        order: 1;
+        text-align: left;
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+    #maintext {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 10px;
+        justify-content: center;
+    }
+    #mainphoto {
+        width: 250px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -50px;
+        margin-bottom: 10px;
+        order: 3;
+    }
+    #footer {
+        padding-bottom: 10px;
+        width: 1150px;
+        order: 4;
+    }
+    #footertext {
+        margin: 0 auto;
+        text-align: center;
+    }
+    #footerphoto {
+        width: 16px;
+        margin: 0 0 -3px 5px;   
+    }
+
+</style>
+</head>
+<body>
+    <div id="container">
+    <img src="graphics/titlebar.png" alt="Title Bar">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="portfolio.html">MY WORK</a></li>
+            <li><a href="photos.html">PHOTOS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+     <h1 class="headertext"><strong>Welcome to my online Portfolio</strong></h1>
+    <main id="maintext">
+        <img id="mainphoto" src="photos/Doppelt_Daniel.jpg" alt="Daniel in a suit">  
+        <p class="abouttext">My name is Daniel Doppelt. I am originally from Chicago and am currently a senior at Illinois State University studying Communication Interactive Media. I have a passion for sports production and video production. I was a Multi-Media Journalist and Production Assistant for TV-10 News. 
+        I am currently working as a Production Assistant for Redbird Productions at Illinois State University. I am graduating from Illinois State University in December 2020 with a bachelor’s degree. I hope that I can utilize my passion of sports and video production to work in those fields after I graduate from university. </p>
+
+            <footer id="footer"><hr>
+            <p id="footertext"><small><i>Daniel Doppelt</i></small><a href="https://www.linkedin.com/in/daniel-doppelt-7227a7137/" target=_blank><img id="footerphoto" src="thumbnails/linkdinicon.jpg"></a></p>                                                
+        </footer>
+    </main>
+    
+    </div> 
+    
+</body>
+</html>

@@ -1,0 +1,122 @@
+<DOCTYPE html>
+<html>
+<head>
+<link href="lightbox2-2.11.3/src/css/lightbox.css" rel="stylesheet" />
+<meta charset="utf-8">
+<title>Photos</title>
+<style>
+    body {
+        background-color: #659DBD;
+        box-sizing: border-box;
+        padding: 100px;
+    }
+    #container {
+        width: 1200px;
+        margin: 0 auto;
+        background-color: #CFCCD6;
+    }
+    nav ul {
+        margin: 0;
+        padding 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        background-color: #383F51;
+    }
+    nav ul li a {
+        display: block;
+        padding: .5em 1em;
+        margin: .5em;
+        text-decoration: none;
+        font-family: arial, helvetica, sans-serif;
+        font-size: 1.4em;
+        color: white;
+        flex: left;
+    }
+    nav a:hover {
+        background-color: #3C4F76;
+        transition: .5s;
+    }
+    #photogallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .photo {
+        max-width: 40%;
+        display: inline-block;
+        text-align: center;
+        border: solid black 5px;  
+    }
+    .photo-container {
+        text-align: center;
+    }
+    #header {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2em;
+    }
+    #credit {
+        text-align: center;
+    }
+      #footer {
+        padding-bottom: 10px;
+        width: 1150px;
+        margin: auto;
+    }
+    #footertext {
+        margin: 0 auto;
+        text-align: center;
+    }
+    #footerphoto {
+        width: 16px;
+        margin: 0 0 -3px 5px; 
+    }
+       #footer {
+        padding-bottom: 10px;
+        width: 1150px;
+        margin: auto;
+    }
+    #footertext {
+        margin: 0 auto;
+        text-align: center;
+    }
+    #footerphoto {
+        width: 16px;
+        margin: 0 0 -3px 5px; 
+    }
+    </style>
+    </head>
+    
+<body>
+    <div id="container">
+    <img src="graphics/titlebar.png" alt="Title Bar">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="portfolio.html">MY WORK</a></li>
+            <li><a href="photos.html">PHOTOS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+        
+        <div class="photo-container">
+            <p id="header"><strong>Photo Gallery</strong></p>
+            
+            <a href="photos/Doppelt-Camera.jpeg" data-lightbox="roadtrip" data-title="Me working the camera while interviewing Levester Johnson October 2020. Taken by Bill Borowski."><img class="photo" src="photos/Doppelt-Camera.jpeg"></a>
+            <a href="photos/Doppelt-Sports-Camera.jpg" data-lightbox="roadtrip" data-title="Picture of me working court camera for ISU's Women Basketball game February 26, 2020. Photo taken by Lewis Marien of The Pantagraph."><img class="photo" src="photos/Doppelt-Sports-Camera.jpg"></a>
+            <a href="photos/motion_djdoppe.jpg" data-lightbox="roadtrip" data-title="My time exposure shot of Main St in Normal IL. Taken March 26, 2020."><img class="photo" src="photos/motion_djdoppe.jpg"></a>
+            <a href="photos/Doppelt-RecordStore.JPG" data-lightbox="roadtrip" data-title="My photo of the owners of North Street Records. Taken on February 9, 2020."><img class="photo" src="photos/Doppelt-RecordStore.JPG"></a>
+            <a href="photos/Dopplet-RedbirdProductions.png" data-lightbox="roadtrip" data-title="Photo of me working courtside camera at a ISU basketball game. Photo taken by Redbird Productions."><img class="photo" src="photos/Dopplet-RedbirdProductions.png"></a>
+            
+            
+        <footer id="footer"><hr>
+            <p id="footertext"><small><i>Daniel Doppelt</i></small><a href="https://www.linkedin.com/in/daniel-doppelt-7227a7137/" target=_blank><img id="footerphoto" src="thumbnails/linkdinicon.jpg"></a></p>                                                
+        </footer>
+        </div>   
+    </div>
+    <script src="lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,259 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Resume</title>
+<style>
+    body {
+        background-color: #659DBD;
+        box-sizing: border-box;
+        padding: 100px;
+    }
+    #container {
+        width: 1200px;
+        margin: 0 auto;
+        background-color: #CFCCD6;       
+    }
+    nav ul {
+        margin: 0;
+        padding 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        background-color: #383F51; 
+    }
+    nav ul li a {
+        display: block;
+        padding: .5em 1em;
+        margin: .5em;
+        text-decoration: none;
+        font-family: arial, helvetica, sans-serif;
+        font-size: 1.4em;
+        color: white;
+        flex: left;  
+    }
+    nav a:hover {
+        background-color: #3C4F76;
+        transition: .5s;
+    }
+    .job-container {
+        padding-left: 2%;
+    }
+    #header-container h1 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    #header-container p {
+        text-align:center;
+        
+    }
+    #header-container hr {
+        width: 1100px;
+    }
+    .heading-title {
+        padding-left: 20px;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        margin: 15px 0;  
+    }
+    .job-description {
+        padding-right: 20px;
+    }
+    #education p {
+        margin: 0 auto;
+        padding-left: 20px;
+    }
+     #fline {
+        width: 1100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .job-position {
+        display: inline-block;
+        vertical-align: top;
+        width: 46%;
+        text-align: left;
+        margin: 0 auto;
+        padding-left: 4%;
+    
+    }
+    .job-position h2,p {
+        font-size: 1.1em;
+        margin: 0 auto;
+    }
+    .job-location {
+        text-align: right;
+        padding-right: 2%;
+        display: inline-block;
+        vertical-align: top;
+        width: 46%;
+        line-height: 1.3em;
+    }
+    .job-location p {
+        margin: auto;
+    }
+    #patext {
+        vertical-align: baseline;
+        margin: 20px 0 0 0;     
+    }
+     #footer {
+        padding-bottom: 10px;
+        width: 1150px;
+        margin: auto;
+    }
+    #footertext {
+        margin: 0 auto;
+        text-align: center;
+    }
+    #footerphoto {
+        width: 16px;
+        margin: 0 0 -3px 5px; 
+    }
+    </style>
+    </head>
+<body>
+    <div id="container">
+    <img src="graphics/titlebar.png" alt="Title Bar">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="portfolio.html">MY WORK</a></li>
+            <li><a href="photos.html">PHOTOS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div id="header-container">
+    <h1><strong>Daniel Doppelt</strong></h1>
+    <p>danieljdoppelt@gmail.com | (773) 490-7852 | Normal, IL</p><br>
+    <hr>
+    </div>
+    
+    <P class="heading-title"><strong>Experience</strong></P>
+        
+    <section class="job-container">
+        <div class="job-position">
+        <h2>Redbird Productions at Illinois State University</h2>
+        <p><small><i>Production Assistant</i></small></p></div>
+        <div class="job-location">
+        <p><strong>December 19 - Present</strong></p>
+        <p>Normal, IL</p></div>
+        <ul class="job-description">
+            <li>Operate audio mixer for talent, NAT sounds, music, and commercials. </li>
+            <li>Help setup cameras, tripods, cameras and lighting for basketball and women gymnastics. </li>
+            <li>Run game cameras and floor cameras for game day production. </li>
+            <li>Assist director, producers, and talent in setting up for game day.  </li>
+            <li>Assistant production crew to prepare broadcast for ESPN, NBC Sports Chicago. </li>
+        </ul>
+        <br>
+    </section>
+    
+    <section class="job-container">
+        <div class="job-position">
+        <h2>TV-10 News at Illinois State University</h2>
+        <p><small><i>Multi-Media Journalist</i></small></p></div>
+        <div class="job-location">
+        <p><strong>August 2019 - December 2019</strong></p>
+        <p>Normal, IL</p></div>
+        
+        <ul class="job-description">
+            <li>Directed scenes and conducted interviews for stories on local news and sports. </li>
+            <li>Archived footage and interviews for edits or later use. </li>
+            <li>Responsible for transporting camera, tripod, microphone, and lighting other for on location shoots. </li>
+            <li>Performed one on one interviews with subject of story. </li>
+            <li>Wrote the script and performed audio and video edits for the story. </li>
+        </ul>
+        <br>
+        
+        <div class="job-position">
+        <p id="PAtext"><i>TV-10 News Production Assistant</i></p></div>
+        <div class="job-location">
+        <p><strong>January 2019 - December 2019</strong></p>
+        <p>Normal, IL</p></div>
+        
+        <ul class="job-description">
+            <li>Managed camera operations during live shows and interviews. </li>
+            <li>Ran commercials and graphics during specified segments. </li>
+            <li>Monitored floor operations and assisted producers as needed. </li>
+            <li>Operate the video switchboard for all cameras and feeds. </li>
+            <li>Handle the audio mixer for all microphones and feeds.</li>
+        </ul>
+        <br>
+    </section>
+     
+    <section class="job-container">
+        <div class="job-position">
+        <h2>My Pi Pizza</h2>
+        <p><small><i>Line Cook</i></small></p></div>
+        <div class="job-location">
+        <p><strong>May 2019 - August 2019</strong></p>
+        <p>Chicago, IL</p></div>
+        
+        <ul class="job-description">
+            <li>Rapidly prepped vegetables and dough. </li>
+            <li>Prepped pizza for shipping and orders. </li>
+            <li>Maintained front of the line. </li>
+        </ul>
+        <br>
+    </section>
+    
+      <section class="job-container">
+        <div class="job-position">
+        <h2>L. Bradley Law Firm</h2>
+        <p><small><i>Legal Assistant</i></small></p></div>
+        <div class="job-location">
+        <p><strong>June 2018 - August 2018</strong></p>
+        <p>Chicago, IL</p></div>
+        
+        <ul class="job-description">
+            <li>Conducted research on pertinent legal issues and potential clients. </li>
+            <li>Aided in the transfer of office operations during renovations. </li>
+            <li>Performed extensive data entry in Excel to organize client information. </li>
+        </ul>
+        <br>
+    </section>
+        
+        <section class="job-container">
+        <div class="job-position">
+        <h2>The Resurrection Project</h2>
+        <p><small><i>Youth Employement Intern</i></small></p></div>
+        <div class="job-location">
+        <p><strong>June 2017 - August 2017</strong></p>
+        <p>Chicago, IL</p></div>
+        
+        <ul class="job-description">
+            <li>Conducted door-to-door canvasing events to engage Chicago residents. </li>
+            <li>Implemented “Community Mapping”, took inventory of housing stock and empty lots. </li>
+        </ul>
+        <br>
+    </section>
+        
+    <P class="heading-title"><strong>Skills</strong></P>
+    
+        <section class="job-container">
+        <ul class="job-description">
+            <li>Proficient in Final Cut Pro X, Adobe Premiere, DaVinci Resolve. </li>
+            <li>Proficient with JVC Cameras. </li>
+            <li>Proficient with Adobe Photoshop, Adobe Illustrator. </li>
+        </ul>
+        <br>
+        </section>
+        
+    <P class="heading-title"><strong>Education</strong></P>
+        
+        <section class="job-container">
+        <div id="education">
+        <section>
+        <p><strong>Illinois State University,</strong> Normal, IL.</p>
+        <p>B.S. - Mass Media Communication/Interactive Media Sequence | Anticipated Graduation Date: Dec. 2020</p>
+        </section>
+        </div>
+        </section>
+    <div id="fline">
+        </div>
+        <footer id="footer"><hr>
+            <p id="footertext"><small><i>Daniel Doppelt</i></small><a href="https://www.linkedin.com/in/daniel-doppelt-7227a7137/" target=_blank><img id="footerphoto" src="thumbnails/linkdinicon.jpg"></a></p>                                                
+        </footer>
+    </div>   
+    </body>
+    </html>

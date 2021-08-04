@@ -1,0 +1,113 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+<style>
+    body {
+        background-color: #659DBD;
+        box-sizing: border-box;
+        padding: 100px;
+    }
+    #container {
+        width: 1200px;
+        margin: 0 auto;
+        background-color: #CFCCD6;       
+    }
+    nav ul {
+        margin: 0;
+        padding 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        background-color: #383F51;
+    }
+    nav ul li a {
+        display: block;
+        padding: .5em 1em;
+        margin: .5em;
+        text-decoration: none;
+        font-family: arial, helvetica, sans-serif;
+        font-size: 1.4em;
+        color: white;
+        flex: left;  
+    }
+    nav a:hover {
+        background-color: #3C4F76;
+        transition: .5s;
+    }
+    form {
+        margin-top: 30px;
+    }
+    .formtext {
+        width: 600px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        color: black;
+        font-size: 18px;
+        margin-bottom: 16px;
+        padding-left: 5px;
+    }
+    input {
+        height: 45px;
+    }
+    .contact-form {
+        text-align: center; 
+    }
+    #headertext {
+        text-align: center;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        padding-top: 15px;
+    }
+    #footer {
+        padding-bottom: 10px;
+        width: 1150px;
+        margin: auto;
+    }
+    #footertext {
+        margin: 0 auto;
+        text-align: center;
+    }
+    #footerphoto {
+        width: 16px;
+        margin: 0 0 -3px 5px; 
+    }
+    </style>
+    </head>
+<body>
+    <div id="container">
+    <img src="graphics/titlebar.png" alt="Title Bar">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="portfolio.html">MY WORK</a></li>
+            <li><a href="photos.html">PHOTOS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+        
+    <h1 id="headertext">Contact Me</h1>
+    <div class="contact-form">  
+        <form id="contact-form">
+            <input name="name" type="text" class="formtext" placeholder="Your Name">
+            <br>
+            <input name="email" type="email" class="formtext" placeholder="Your email">
+            <br>
+            <textarea name="message" class="formtext" placeholder="Message" rows="4"></textarea>
+            <br>
+            <input type="submit" class="formtext" value="Send"> 
+            <input type="reset" class="formtext" value="Reset"> 
+        </form>  
+    </div> 
+        
+        <footer id="footer"><hr>
+            <p id="footertext"><small><i>Daniel Doppelt</i></small><a href="https://www.linkedin.com/in/daniel-doppelt-7227a7137/" target=_blank><img id="footerphoto" src="thumbnails/linkdinicon.jpg"></a></p>                                                
+        </footer>
+    </div>
+    </body>
+    </html>
