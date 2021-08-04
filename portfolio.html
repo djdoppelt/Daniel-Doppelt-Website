@@ -1,0 +1,106 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portfolio</title>
+<style>
+    body {
+        background-color: #659DBD;
+        box-sizing: border-box;
+        padding: 100px;
+    }
+    #container {
+        width: 1200px;
+        margin: 0 auto;
+        background-color: #CFCCD6;       
+    }
+    nav ul {
+        margin: 0;
+        padding 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        background-color: #383F51;
+    }
+    nav ul li a {
+        display: block;
+        padding: .5em 1em;
+        margin: .5em;
+        text-decoration: none;
+        font-family: arial, helvetica, sans-serif;
+        font-size: 1.4em;
+        color: white;
+        flex: left;    
+    }
+    nav a:hover {
+        background-color: #3C4F76;
+        transition: .5s;
+    }
+    #pheader {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 2em;
+        text-transform: uppercase;
+        padding: 30px 20px;
+        
+    }
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ptext {
+        padding-top: 15px;
+        text-align: center;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold; 
+    }
+      #footer {
+        padding-bottom: 10px;
+        width: 1150px;
+        margin: auto;
+    }
+    #footertext {
+        margin: 0 auto;
+        text-align: center;
+    }
+    #footerphoto {
+        width: 16px;
+        margin: 0 0 -3px 5px; 
+    }
+    </style>
+    </head>
+<body>
+    <div id="container">
+    <img src="graphics/titlebar.png" alt="Title Bar">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="portfolio.html">MY WORK</a></li>
+            <li><a href="photos.html">PHOTOS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+        
+        <div class="portfolio">
+        <div class="ptext"></div> 
+        <h7 id="pheader"><strong>My Work</strong></h7>
+            
+            <iframe width="700" height="393" src="https://www.youtube.com/embed/FVGPMPBPWII" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="ptext">For the Mandolincoln news story, I shot, wrote, tracked, and edited the entire piece in October 2019. This story was shown on TV-10 News.</p>
+            <br>
+
+            <iframe width="700" height="393" src="https://www.youtube.com/embed/nHtV0XsmUmk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="ptext">For the Library Dogs story, I shot, wrote, tracked, and edited the entire piece in September 2019. This story was shown on TV-10 News.</p>
+            <br>
+
+            <iframe width="700" height="393" src="https://www.youtube.com/embed/a-UtribKINs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="ptext">For the ISU Basketball Preview news story, I shot, wrote, tracked, and edited the entire piece in October 2019. This story was shown on TV-10 News.</p>
+        </div>
+        
+        <footer id="footer"><hr>
+            <p id="footertext"><small><i>Daniel Doppelt</i></small><a href="https://www.linkedin.com/in/daniel-doppelt-7227a7137/" target=_blank><img id="footerphoto" src="thumbnails/linkdinicon.jpg"></a></p>                                                
+        </footer>
+    </div>
+    </body>
+    </html>
